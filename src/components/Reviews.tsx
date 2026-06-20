@@ -16,7 +16,7 @@ export default function Reviews() {
   const [successMsg, setSuccessMsg] = useState(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem('cyberwise_testimonials');
+    const saved = localStorage.getItem('cyberking_testimonials');
     if (saved) {
       try {
         setStories(JSON.parse(saved));
@@ -39,7 +39,7 @@ export default function Reviews() {
     const newStoryObj: Testimonial = {
       id: String(Date.now()),
       name: newStory.name,
-      role: newStory.role || 'CyberWise Graduate',
+      role: newStory.role || 'Cyber King Graduate',
       course: newStory.course,
       quote: newStory.quote,
       avatarUrl: `https://images.unsplash.com/photo-${1500000000000 + Math.floor(Math.random() * 900000)}?auto=format&fit=crop&w=150&q=80`,
@@ -49,7 +49,7 @@ export default function Reviews() {
 
     const updated = [newStoryObj, ...stories];
     setStories(updated);
-    localStorage.setItem('cyberwise_testimonials', JSON.stringify(updated));
+    localStorage.setItem('cyberking_testimonials', JSON.stringify(updated));
 
     setNewStory({
       name: '',
@@ -233,7 +233,7 @@ export default function Reviews() {
                 rows={3}
                 value={newStory.quote}
                 onChange={(e) => setNewStory(prev => ({ ...prev, quote: e.target.value }))}
-                placeholder="How did CyberWise support your education gap and assist your placement search?"
+                placeholder="How did Cyber King support your education gap and assist your placement search?"
                 className="w-full bg-[#050b1a] border border-indigo-950 rounded-xl px-4 py-3 font-sans text-sm text-white focus:outline-none focus:border-cyan-500/50"
               />
             </div>

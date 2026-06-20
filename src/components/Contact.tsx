@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="p-6 rounded-2xl bg-[#030712] border border-indigo-950/80 space-y-4 relative overflow-hidden">
               <h3 className="font-display font-extrabold text-lg text-white">Perinthalmanna Studio Hub</h3>
               <p className="font-sans text-xs sm:text-sm text-slate-400">
-                CyberWise Skillversity is positioned next to major regional transport hubs, allowing college candidates and professionals to attend smoothly.
+                Cyber King Skillversity is positioned next to major regional transport hubs, allowing college candidates and professionals to attend smoothly.
               </p>
 
               {/* Schematic Map Visualizer Box */}
@@ -53,7 +53,7 @@ export default function Contact() {
                     <MapPin className="h-5 w-5 text-cyan-400" />
                   </div>
                   <span className="px-2 py-0.5 rounded bg-indigo-650 text-white font-mono text-[9px] font-bold uppercase tracking-wider shadow">
-                     CyberWise Hub
+                     Cyber King Hub
                   </span>
                 </div>
 
@@ -80,7 +80,7 @@ export default function Contact() {
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-indigo-400 shrink-0 mt-0.5" />
                   <span className="font-sans text-xs sm:text-sm text-slate-300">
-                    CyberWise Skillversity, High-Tech Studio Ave, near Town Junction, Perinthalmanna, Kerala - 679322
+                    Cyber King Skillversity, High-Tech Studio Ave, near Town Junction, Perinthalmanna, Kerala - 679322
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-indigo-400 shrink-0" />
-                  <span className="font-sans text-xs sm:text-sm text-slate-300">info@cyberwiseskill.com / admissions@cyberwiseskill.com</span>
+                  <span className="font-sans text-xs sm:text-sm text-slate-300">info@cyberkingskill.com / admissions@cyberkingskill.com</span>
                 </div>
               </div>
 

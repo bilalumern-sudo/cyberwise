@@ -34,7 +34,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
   }, [selectedCourseId]);
 
   useEffect(() => {
-    const list = localStorage.getItem('cyberwise_enquiries');
+    const list = localStorage.getItem('cyberking_enquiries');
     if (list) {
       try {
         setRegisteredList(JSON.parse(list));
@@ -61,7 +61,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
     // Capture entry
     const updated = [formData, ...registeredList];
     setRegisteredList(updated);
-    localStorage.setItem('cyberwise_enquiries', JSON.stringify(updated));
+    localStorage.setItem('cyberking_enquiries', JSON.stringify(updated));
 
     setIsSubmitted(true);
     setFormData({
@@ -79,7 +79,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
 
   // Build WhatsApp template links
   const handleWhatsAppEnquiry = () => {
-    const defaultTemplate = `Hi CyberWise Skillversity, I am interested in seeking admission and details for course programs in Perinthalmanna. Please assist!`;
+    const defaultTemplate = `Hi Cyber King Skillversity, I am interested in seeking admission and details for course programs in Perinthalmanna. Please assist!`;
     const encoded = encodeURIComponent(defaultTemplate);
     window.open(`https://wa.me/919999999999?text=${encoded}`, '_blank');
   };
@@ -147,9 +147,11 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
                 <button
                   type="button"
                   onClick={handleWhatsAppEnquiry}
-                  className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-650 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-sans font-bold text-xs tracking-wide transition-all shadow-md flex items-center justify-center space-x-2 cursor-pointer border border-emerald-555/40"
+                  className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-sans font-bold text-xs tracking-wide transition-all shadow-md flex items-center justify-center space-x-2 cursor-pointer border border-emerald-500/30"
                 >
-                  <span className="text-sm">💬</span>
+                  <svg className="h-4.5 w-4.5 fill-current text-white shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.037 21.978c-1.803 0-3.568-.475-5.118-1.378l-.366-.214-3.806.997 1.014-3.71-.234-.373A9.856 9.856 0 0 1 2.038 12c0-5.44 4.426-9.863 9.873-9.863 2.634 0 5.109 1.025 6.968 2.885a9.782 9.782 0 0 1 2.88 6.978c-.004 5.44-4.428 9.878-9.872 9.878l.15-.022zM12.037 0C5.385 0 .012 5.371.012 12c0 2.116.55 4.18 1.597 5.993L0 24l6.195-1.623a11.91 11.91 0 0 0 5.836 1.62c6.647 0 12.012-5.373 12.012-12c0-3.201-1.246-6.212-3.51-8.479A11.95 11.95 0 0 0 12.037 0zm5.127 15.228c-.282-.14-.282-.321-1.66-.995-.141-.07-.243-.105-.347.053-.105.158-.408.508-.499.613-.09.105-.181.123-.463.018a5.831 5.831 0 0 1-1.72-1.06 6.436 6.436 0 0 1-1.192-1.48c-.167-.282-.018-.435.123-.576.126-.127.282-.333.424-.499a2.02 2.02 0 0 0 .14-.246c.047-.099.023-.19-.011-.263-.035-.07-.35-.843-.479-1.157-.126-.307-.253-.263-.347-.267-.09-.004-.193-.004-.296-.004a.57.57 0 0 0-.411.19c-.141.159-.539.527-.539 1.282 0 .755.549 1.484.626 1.587.078.106 1.079 1.65 2.617 2.313.366.158.65.253.873.324.368.118.702.102.968.062.296-.044.912-.372 1.04-.73.128-.357.128-.664.09-.728-.04-.061-.141-.105-.424-.246z" fill="#FFFFFF"/>
+                  </svg>
                   <span>WhatsApp Academic Desk</span>
                 </button>
               </div>
@@ -160,7 +162,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
             <div className="space-y-4 text-left border-t border-indigo-950/40 pt-6">
               <div className="flex items-center space-x-3 text-slate-400">
                 <MapPin className="h-5 w-5 text-indigo-400 shrink-0" />
-                <span className="font-sans text-xs sm:text-sm">CyberWise High-Tech Studio, Perinthalmanna, Kerala</span>
+                <span className="font-sans text-xs sm:text-sm">Cyber King High-Tech Studio, Perinthalmanna, Kerala</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <Phone className="h-5 w-5 text-cyan-400 shrink-0" />
@@ -168,7 +170,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <Mail className="h-5 w-5 text-indigo-400 shrink-0" />
-                <span className="font-sans text-xs sm:text-sm">admissions@cyberwiseskill.com</span>
+                <span className="font-sans text-xs sm:text-sm">admissions@cyberkingskill.com</span>
               </div>
             </div>
 
@@ -248,7 +250,7 @@ export default function Admissions({ selectedCourseId }: AdmissionsProps) {
                     rows={4}
                     value={formData.message}
                     onChange={handleInputChange}
-                    placeholder="Briefly share your academic education background and what you hope to achieve at CyberWise Skillversity."
+                    placeholder="Briefly share your academic education background and what you hope to achieve at Cyber King Skillversity."
                     className="w-full bg-[#050b1a] border border-indigo-950 rounded-xl px-4 py-3 font-sans text-sm text-white focus:outline-none focus:border-cyan-500/50"
                   />
                 </div>

@@ -48,14 +48,14 @@ export default function About() {
         {/* Head Intro */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="font-mono text-xs font-bold uppercase tracking-widest text-cyan-400">
-            About CyberWise Skillversity
+            About Cyber King Skillversity
           </span>
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
             Bridging Academic Knowledge with Real-World Industry Skills
           </h2>
           <div className="h-1.5 w-24 bg-gradient-to-r from-indigo-500 to-cyan-400 mx-auto rounded-full" />
           <p className="font-sans text-slate-300 text-base sm:text-lg leading-relaxed pt-2">
-            CyberWise Skillversity, Perinthalmanna, is a next-generation career-focused learning platform designed to connect academic knowledge with real-world industry skills. We empower students, graduates, and professionals with hands-on capabilities.
+            Cyber King Skillversity, Perinthalmanna, is a next-generation career-focused learning platform designed to connect academic knowledge with real-world industry skills. We empower students, graduates, and professionals with hands-on capabilities.
           </p>
         </div>
 

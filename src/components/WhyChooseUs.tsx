@@ -72,14 +72,14 @@ export default function WhyChooseUs() {
         {/* Intro */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="font-mono text-xs font-bold uppercase tracking-widest text-[#a5f3fc]">
-            WHY CHOOSE CYBERWISE
+            WHY CHOOSE CYBER KING
           </span>
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
             Designed Around Employer Benchmarks
           </h2>
           <div className="h-1.5 w-24 bg-gradient-to-r from-indigo-500 to-cyan-400 mx-auto rounded-full" />
           <p className="font-sans text-slate-300 text-sm sm:text-base leading-relaxed">
-            Discover how CyberWise Skillversity is changing skill training in Perinthalmanna with premium curricula, creative lab gear, and placement partnerships.
+            Discover how Cyber King Skillversity is changing skill training in Perinthalmanna with premium curricula, creative lab gear, and placement partnerships.
           </p>
         </div>
 

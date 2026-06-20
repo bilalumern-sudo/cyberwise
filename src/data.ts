@@ -170,7 +170,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Suhail K.P.',
     role: 'Digital Marketing Strategist',
     course: 'AI-Driven Digital Marketing',
-    quote: 'CyberWise Skillversity helped me bridge the gap between my degree and what brands actually seek. Within 3 months, I mastered AI workflows and secured an online strategist role in Perinthalmanna.',
+    quote: 'Cyber King Skillversity helped me bridge the gap between my degree and what brands actually seek. Within 3 months, I mastered AI workflows and secured an online strategist role in Perinthalmanna.',
     avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
     rating: 5,
     badge: 'Marketing Lead'
@@ -216,7 +216,7 @@ export const INSTITUTION_STATS = [
 
 export const FAQS = [
   {
-    question: 'Where is CyberWise Skillversity located?',
+    question: 'Where is Cyber King Skillversity located?',
     answer: 'We are situated in the heart of Perinthalmanna, easily accessible by college students, graduates, and working professionals looking to level-up their abilities.'
   },
   {
@@ -224,11 +224,11 @@ export const FAQS = [
     answer: 'Yes! We run specialized evening and weekend cohorts designed explicitly to fit the lifestyles of busy practitioners and current college students.'
   },
   {
-    question: 'What are the core prerequisites for joining CyberWise?',
+    question: 'What are the core prerequisites for joining Cyber King?',
     answer: 'None. Only a hunger to learn. All our classes start with absolute fundamentals and gradually build up to advanced professional tools.'
   },
   {
-    question: 'Does CyberWise provide assistance for career placement?',
+    question: 'Does Cyber King provide assistance for career placement?',
     answer: 'Absolutely. We provide mock interviews, custom portfolio building, resume workshops, and straight connections to marketing agency partners across the region.'
   }
 ];

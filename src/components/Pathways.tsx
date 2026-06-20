@@ -23,7 +23,7 @@ export default function Pathways() {
           </h2>
           <div className="h-1.5 w-24 bg-gradient-to-r from-indigo-500 to-cyan-400 mx-auto rounded-full" />
           <p className="font-sans text-slate-300 text-sm sm:text-base leading-relaxed">
-            "CyberWise Skillversity combines skill-based learning with academic opportunities, helping learners develop qualifications along with practical industry abilities."
+            "Cyber King Skillversity combines skill-based learning with academic opportunities, helping learners develop qualifications along with practical industry abilities."
           </p>
         </div>
 

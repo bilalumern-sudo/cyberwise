@@ -48,7 +48,7 @@ export default function Navbar({ currentView, onNavigate }: NavbarProps) {
             
             <div className="flex flex-col">
               <span className="font-display font-extrabold text-xl tracking-tight text-white leading-none">
-                CyberWise
+                Cyber King
               </span>
               <span className="font-sans text-[10px] font-semibold uppercase tracking-widest text-[#a5f3fc]">
                 Skillversity

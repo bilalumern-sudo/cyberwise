@@ -44,7 +44,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               className="space-y-4"
             >
               <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-none">
-                CyberWise Skillversity <br />
+                Cyber King Skillversity <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-indigo-600">
                   Where Skills Meet Opportunities
                 </span>
@@ -60,7 +60,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="font-sans text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl"
             >
-              Unlock your potential with career-focused programs in AI-powered digital marketing, professional videography, e-commerce, and spoken English. CyberWise Skillversity helps students and professionals develop practical skills, confidence, and industry knowledge to succeed in the digital world.
+              Unlock your potential with career-focused programs in AI-powered digital marketing, professional videography, e-commerce, and spoken English. Cyber King Skillversity helps students and professionals develop practical skills, confidence, and industry knowledge to succeed in the digital world.
             </motion.p>
 
             {/* CTA Interaction Buttons */}

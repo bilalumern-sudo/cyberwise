@@ -28,7 +28,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               
               <div className="flex flex-col">
                 <span className="font-display font-extrabold text-lg text-white leading-none">
-                  CyberWise
+                  Cyber King
                 </span>
                 <span className="font-sans text-[9px] font-semibold uppercase tracking-widest text-[#a5f3fc]">
                   Skillversity
@@ -66,7 +66,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li>
                 <button onClick={() => handleLinkClick('why-us')} className="hover:text-cyan-400 transition-colors cursor-pointer">
-                  H-4 Why Choose CyberWise
+                  H-4 Why Choose Cyber King
                 </button>
               </li>
             </ul>
@@ -104,7 +104,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Footer bottom bar copyrights */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-indigo-950/15 text-xs sm:text-xs">
           <p className="font-sans text-slate-500 text-center sm:text-left">
-            © 2026 CyberWise Skillversity. Perinthalmanna Studio Division. All Rights Reserved.
+            © 2026 Cyber King Skillversity. Perinthalmanna Studio Division. All Rights Reserved.
           </p>
           <div className="flex items-center space-x-1.5 font-sans text-slate-650 font-semibold text-center">
             <span>Powered by</span>
